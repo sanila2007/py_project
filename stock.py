@@ -13,3 +13,5 @@ def stock(Name, QTY, Rate):
 
 
 stock(h, l, m)
+
+print("-------------------------------")

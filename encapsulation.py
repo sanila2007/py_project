@@ -54,3 +54,30 @@ class country:
 
 countryobject = country()
 countryobject.country1()
+
+print("--------------------")
+
+
+class app:
+    def app1(self):
+        print("My favourite app")
+        self.__app2()
+
+    def __app2(self):
+        print("Most secure app is telegram")
+
+
+appobject = app()
+appobject.app1()
+
+
+class os:
+    def __operating_system1(self):
+        print("My operating system is windows.")
+
+    def operating_system(self):
+        self.__operating_system1()
+
+
+operating_object = os()
+operating_object.operating_system()

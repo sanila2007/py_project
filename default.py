@@ -45,4 +45,12 @@ def bot(**Languages):
         print(key, " = ", value)
 
 
-bot(Torrent_Downloader="python",Song_downloader="python")
+bot(Torrent_Downloader="python", Song_downloader="python")
+
+
+def operating_system(My_system, *most_secure_system):
+    print("Most secure os is", most_secure_system)
+    print("My os is,", My_system)
+
+
+operating_system("Windows", "Linux", "Apple")
