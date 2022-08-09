@@ -30,4 +30,4 @@ print(whole_day)
 time_delta = datetime.timedelta(days= 20)
 print(whole_day - time_delta)
 
-print("----------------------------------")
+print("--------------------------------")
