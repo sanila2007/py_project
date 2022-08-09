@@ -48,4 +48,6 @@ c = ["Sanila","Male",14,"student"]
 for h in c:
     print(h)
 
+   
+print("---------------------------------------")
 
